@@ -43,7 +43,7 @@ CREATE TABLE `filesofprivatecloud` (
 
 LOCK TABLES `filesofprivatecloud` WRITE;
 /*!40000 ALTER TABLE `filesofprivatecloud` DISABLE KEYS */;
-INSERT INTO `filesofprivatecloud` VALUES (1,'example','C:\\Users\\I_S_J\\Desktop\\pullfromgithub\\example.txt','7509e5bda0c762d2bac7f90d758b5b2263fa01ccbc542ab5e3df163be08e6ca9',1);
+
 /*!40000 ALTER TABLE `filesofprivatecloud` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -73,7 +73,6 @@ CREATE TABLE `filesofpubliccloud` (
 
 LOCK TABLES `filesofpubliccloud` WRITE;
 /*!40000 ALTER TABLE `filesofpubliccloud` DISABLE KEYS */;
-INSERT INTO `filesofpubliccloud` VALUES (5,'example','C:UsersI_S_JDesktoppullfromgithubexample.txt','7509e5bda0c762d2bac7f90d758b5b2263fa01ccbc542ab5e3df163be08e6ca9',6),(6,'10 min','C:UsersI_S_JDesktopdvsample-data-10mins new.xlsx','7746f273dc676e81496f18bd57282ebe6b1cb23c86c3419e7dbe55e0a795f946',6),(19,'sayed.txt','C:\\Users\\I_S_J\\Desktop\\pullfromgithub',' ',10),(20,'three','C:\\Users\\I_S_J\\Desktop\\pullfromgithub\\3.png','e5cadd4ee5d0c81de2d4e0d7bb182b3804687d6672865d03175c9dcad41e8505',11);
 /*!40000 ALTER TABLE `filesofpubliccloud` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -106,7 +105,6 @@ CREATE TABLE `privatecloudregisteration` (
 
 LOCK TABLES `privatecloudregisteration` WRITE;
 /*!40000 ALTER TABLE `privatecloudregisteration` DISABLE KEYS */;
-INSERT INTO `privatecloudregisteration` VALUES (1,'Iranna',20,'Male','irannasj2004@gmail.com','12321','1203014030120','2024-11-29 14:32:16'),(12,'zeeshan',54,'male','zesshha','1223','1203030140','2024-12-17 09:50:10');
 /*!40000 ALTER TABLE `privatecloudregisteration` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -137,7 +135,6 @@ CREATE TABLE `publiccloudregisteration` (
 
 LOCK TABLES `publiccloudregisteration` WRITE;
 /*!40000 ALTER TABLE `publiccloudregisteration` DISABLE KEYS */;
-INSERT INTO `publiccloudregisteration` VALUES (6,'Iranna',20,'Male','irannasj2004@gmail.com','12321','2024-11-23 13:59:51'),(8,'manikant',24,'male','manik','1225','2024-12-17 05:52:31'),(9,'Puneeth',20,'Male','puneeeth@gmail.com','12232','2024-12-17 06:00:21'),(10,'sayed',21,'male','sayed675@gmail.com','sayed3214','2024-12-17 09:43:52'),(11,'Rakesh',21,'Male','rakesh@gmail.com','12abc','2024-12-17 10:33:26');
 /*!40000 ALTER TABLE `publiccloudregisteration` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
